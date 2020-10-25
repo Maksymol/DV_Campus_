@@ -76,5 +76,41 @@ return [
     ],
     'install' => [
         'date' => 'Fri, 23 Oct 2020 09:59:30 +0000'
+    ],
+    'system' => [
+        'default' => [
+            'web' => [
+                'unsecure' => [
+                    'base_url' => 'https://maksymoliynik.local/',
+                    'base_link_url' => '{{unsecure_base_url}}',
+                    'base_static_url' => 'https://maksymoliynik.local/static/',
+                    'base_media_url' => 'https://maksymoliynik.local/media/'
+                ],
+                'secure' => [
+                    'base_url' => 'https://maksymoliynik.local/',
+                    'base_link_url' => '{{secure_base_url}}',
+                    'base_static_url' => 'https://maksymoliynik.local/static/',
+                    'base_media_url' => 'https://maksymoliynik.local/media/'
+                ],
+            ],
+        ],
+        'websites' => [
+            'additional_website' => [
+                'web' => [
+                    'unsecure' => [
+                        'base_url' => 'https://maksymoliynik-additional.local/',
+                        'base_link_url' => 'https://maksymoliynik-additional.local/',
+                        'base_static_url' => 'https://maksymoliynik-additional.local/static/',
+                        'base_media_url' => 'https://maksymoliynik-additional.local/media/'
+                    ],
+                    'secure' => [
+                        'base_url' => 'https://maksymoliynik-additional.local/',
+                        'base_link_url' => 'https://maksymoliynik-additional.local/',
+                        'base_static_url' => 'https://maksymoliynik-additional.local/static/',
+                        'base_media_url' => 'https://maksymoliynik-additional.local/media/'
+                    ]
+                ]
+            ]
+        ]
     ]
 ];
