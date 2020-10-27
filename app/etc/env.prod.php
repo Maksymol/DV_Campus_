@@ -91,8 +91,8 @@ return [
                     'base_link_url' => '{{secure_base_url}}',
                     'base_static_url' => 'https://maksymoliynik.local/static/',
                     'base_media_url' => 'https://maksymoliynik.local/media/'
-                ],
-            ],
+                ]
+            ]
         ],
         'websites' => [
             'additional_website' => [
