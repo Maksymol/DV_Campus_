@@ -14,9 +14,9 @@ return [
         'connection' => [
             'default' => [
                 'host' => 'mysql',
-                'dbname' => 'maksymoliynik_dev_local',
-                'username' => 'maksymoliynik_dev-local',
-                'password' => 'q3wr#$R#$%%@^&&^^&%$$#',
+                'dbname' => 'maksymoliynik_build_local',
+                'username' => 'maksymoliynik_build-local',
+                'password' => 'wjwhduiwg2eu234546&^&45',
                 'model' => 'mysql4',
                 'engine' => 'innodb',
                 'initStatements' => 'SET NAMES utf8;',
