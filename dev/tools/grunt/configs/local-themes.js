@@ -1,6 +1,6 @@
 /**
  grunt clean:maksymoliynik_luma_en_us && grunt exec:maksymoliynik_luma_en_us && grunt less:maksymoliynik_luma_en_us && grunt watch
- */
+ho */
 module.exports = {
   maksymoliynik_luma_en_us: {
         area: 'frontend',
