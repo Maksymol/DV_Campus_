@@ -1,0 +1,8 @@
+
+<theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
+    <title>MaksymOliynik luma</title>
+    <parent>Magento/luma</parent>
+    <media>
+        <preview_image>media/luma-magento-2.png</preview_image>
+    </media>
+</theme>
