@@ -14,9 +14,9 @@ return [
         'connection' => [
             'default' => [
                 'host' => 'mysql',
-                'dbname' => 'maksymoliynik_local',
-                'username' => 'maksymoliynik_local',
-                'password' => 'maksymoliynik_local',
+                'dbname' => 'maksymoliynik_build_local',
+                'username' => 'maksymoliynik_build-local',
+                'password' => 'wjwhduiwg2eu234546&^&45',
                 'model' => 'mysql4',
                 'engine' => 'innodb',
                 'initStatements' => 'SET NAMES utf8;',
@@ -72,7 +72,7 @@ return [
         'vertex' => 1
     ],
     'downloadable_domains' => [
-        'maksymoliynik.local'
+        'maksymoliynik-dev.local'
     ],
     'install' => [
         'date' => 'Fri, 23 Oct 2020 09:59:30 +0000'
@@ -81,40 +81,33 @@ return [
         'default' => [
             'web' => [
                 'unsecure' => [
-                    'base_url' => 'https://maksymoliynik.local/',
+                    'base_url' => 'https://maksymoliynik-dev.local/',
                     'base_link_url' => '{{unsecure_base_url}}',
-                    'base_static_url' => 'https://maksymoliynik.local/static/',
-                    'base_media_url' => 'https://maksymoliynik.local/media/'
+                    'base_static_url' => 'https://maksymoliynik-dev.local/static/',
+                    'base_media_url' => 'https://maksymoliynik-dev.local/media/'
                 ],
                 'secure' => [
-                    'base_url' => 'https://maksymoliynik.local/',
+                    'base_url' => 'https://maksymoliynik-dev.local/',
                     'base_link_url' => '{{secure_base_url}}',
-                    'base_static_url' => 'https://maksymoliynik.local/static/',
-                    'base_media_url' => 'https://maksymoliynik.local/media/'
-                ]
-            ]
+                    'base_static_url' => 'https://maksymoliynik-dev.local/static/',
+                    'base_media_url' => 'https://maksymoliynik-dev.local/media/'
+                ],
+            ],
         ],
         'websites' => [
-            'base' => [
-                'design' => [
-                    'theme' => [
-                        'theme_id' => 4
-                    ]
-                ]
-            ],
             'additional_website' => [
                 'web' => [
                     'unsecure' => [
-                        'base_url' => 'https://maksymoliynik-additional.local/',
-                        'base_link_url' => 'https://maksymoliynik-additional.local/',
-                        'base_static_url' => 'https://maksymoliynik-additional.local/static/',
+                        'base_url' => 'https://maksymoliynik-additional-dev.local/',
+                        'base_link_url' => 'https://maksymoliynik-additional-dev.local/',
+                        'base_static_url' => 'https://maksymoliynik-additional-dev.local/static/',
                         'base_media_url' => 'https://maksymoliynik-additional.local/media/'
                     ],
                     'secure' => [
-                        'base_url' => 'https://maksymoliynik-additional.local/',
-                        'base_link_url' => 'https://maksymoliynik-additional.local/',
-                        'base_static_url' => 'https://maksymoliynik-additional.local/static/',
-                        'base_media_url' => 'https://maksymoliynik-additional.local/media/'
+                        'base_url' => 'https://maksymoliynik-additional-dev.local/',
+                        'base_link_url' => 'https://maksymoliynik-additional-dev.local/',
+                        'base_static_url' => 'https://maksymoliynik-additional-dev.local/static/',
+                        'base_media_url' => 'https://maksymoliynik-additional-dev.local/media/'
                     ]
                 ]
             ]
